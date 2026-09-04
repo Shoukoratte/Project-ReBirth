@@ -25,3 +25,10 @@
 
 ### Next Step
 - Step 1.1: Understand the internal structure of a Wii WAD
+
+### WAD extraction completed
+
+- Verified WAD integrity successfully.
+- Extracted Ticket, TMD, certificate chain, trailer, and five contents.
+- No original game files were added to Git.
+- Next task: identify the internal format and purpose of each `.app` content.
