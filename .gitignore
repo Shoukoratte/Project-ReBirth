@@ -1,0 +1,22 @@
+# Original game files
+local/
+
+# Wii containers / executables
+*.wad
+*.app
+*.dol
+*.elf
+
+# Keys / sensitive local material
+*.key
+keys.txt
+
+# Build outputs
+build/
+out/
+
+# IDE / OS junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
