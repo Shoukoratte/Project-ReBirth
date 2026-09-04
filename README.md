@@ -70,3 +70,4 @@ local/      Private game files — ignored by Git
 ## Development Status
 
 This project is experimental and intended for educational and preservation research.
+This project use AI for educational process and learning for someone who never did something like this before but have the basic knowledge from Engineering to make it real.
