@@ -74,3 +74,24 @@ At this stage, the purpose of each content has not yet been confirmed.
 - Content `00000002.app` is significantly larger than the others.
 - No assumptions have yet been made about which content contains the executable.
 - Original extracted files remain inside `local/` and are not tracked by Git.
+
+## Executable Identification
+
+Content `00000001.app` was initially not recognized as a DOL.
+
+Its first byte indicated Nintendo LZ-style compression, so the content was
+decompressed using `dtk nlzss decompress`.
+
+The decompressed result was successfully recognized by `dtk dol info` as a
+valid Wii DOL executable.
+
+Confirmed chain:
+
+`WAD -> 00000001.app -> NLZSS-compressed data -> DOL executable`
+
+The executable contains recognizable Wii / CodeWarrior runtime symbols,
+including OS, GX, DVD, PAD, NAND, C++ runtime, and MetroTRK components.
+
+DTK also reported:
+
+`79 discovered functions from exception table`

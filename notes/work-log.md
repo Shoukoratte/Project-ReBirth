@@ -32,3 +32,13 @@
 - Extracted Ticket, TMD, certificate chain, trailer, and five contents.
 - No original game files were added to Git.
 - Next task: identify the internal format and purpose of each `.app` content.
+
+### Executable located
+
+- Tested `00000001.app` as a DOL directly: failed.
+- Inspected binary header.
+- Identified Nintendo LZ-style compression.
+- Decompressed `00000001.app`.
+- Confirmed decompressed output is a valid DOL.
+- DTK recognized Wii SDK / CodeWarrior runtime symbols.
+- 79 functions were recovered from exception table metadata.
