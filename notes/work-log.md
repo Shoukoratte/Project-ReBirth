@@ -42,3 +42,13 @@
 - Confirmed decompressed output is a valid DOL.
 - DTK recognized Wii SDK / CodeWarrior runtime symbols.
 - 79 functions were recovered from exception table metadata.
+
+### Main executable prepared
+
+- Decompressed `00000001.app`
+- Renamed decompressed output to `main.dol`
+- Confirmed valid Wii DOL structure with decomp-toolkit
+- Recorded executable size: `2,644,832 bytes`
+- Recorded executable SHA-256:
+  `0A5DDBBDFA4FA2235E4D6018ACB3F2EFD1599CD5DE2478E98A65346CF58EA1E9`
+- `main.dol` remains inside `local/` and is ignored by Git

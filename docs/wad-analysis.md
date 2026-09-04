@@ -95,3 +95,17 @@ including OS, GX, DVD, PAD, NAND, C++ runtime, and MetroTRK components.
 DTK also reported:
 
 `79 discovered functions from exception table`
+
+## Main Executable
+
+The compressed boot content was decompressed and saved locally as:
+
+`local/work/main.dol`
+
+This file is not tracked by Git.
+
+- Source content: `00000001.app`
+- Format: Wii DOL
+- Compression layer: Nintendo LZ / NLZSS
+- Size: `2,644,832 bytes`
+- SHA-256: `0A5DDBBDFA4FA2235E4D6018ACB3F2EFD1599CD5DE2478E98A65346CF58EA1E9`
